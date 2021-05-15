@@ -9,7 +9,7 @@ function fillArr(arr, callback){
 
 function showResult(){  
     for(let key of arr){
-        console.log(arr[key]);
+        console.log(`key:${key}, value: ${arr[key]}`);
     }
 }
 
